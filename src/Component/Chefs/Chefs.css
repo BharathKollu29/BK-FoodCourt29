@@ -1,0 +1,44 @@
+
+.chefs-container {
+    height: 50vh;
+    width: 100vw;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.normal-style {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.style-heading {
+    color: red;
+}
+.overall-cards {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.chefs-card {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chef-image {
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.chef-image-av {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}

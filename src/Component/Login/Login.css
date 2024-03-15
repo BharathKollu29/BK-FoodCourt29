@@ -1,0 +1,129 @@
+
+.login-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    /*background-image: linear-gradient(black, #dbd4ca);*/
+}
+.login-left-section {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid  white;
+    background-image: url("https://img.freepik.com/premium-vector/illustration-vector-graphic-cartoon-character-online-registration_516790-1804.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.login-left-section > img {
+    position: absolute;
+}
+.login-image {
+    height: 550px;
+    right: 23rem;
+    top: -19rem;
+}
+
+
+/* login-right-section css */
+
+.login-form-container {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    gap: 1rem;
+    border: 2px solid  white;
+    background-color: white;
+}
+
+.login-form-container > :nth-child(1) {
+    font-size: 20px;
+}
+.login-form-container > :nth-child(2) {
+    height: 18px;
+    width: 220px;
+    border: none;
+    padding: 7px;
+    background-color: #ecf0f3;
+}
+.login-form-container > :nth-child(3) {
+    height: 18px;
+    width: 220px;
+    border: none;
+    padding: 7px;
+    background-color: #ecf0f3;
+}
+.login-form-container > :nth-child(4) {
+    display: flex;
+    font-family: gumela;
+    font-size: 14px;
+    align-self: start;
+    margin-left: 2rem;
+    cursor: pointer;
+    color: orangered;
+}
+.login-form-container > button {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+}
+.login-form-container > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.login-form-container > :nth-child(6) {
+    color: black;
+}
+.signup {
+    cursor: pointer;
+    font-family: gumela;
+    font-size: 14px;
+    color: orangered;
+
+}
+
+/* react-icons css */
+
+
+.react-icons > :nth-child(1) {
+    font-size: 25px;
+    color: red;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+}
+.react-icons > :nth-child(2) {
+    font-size: 25px;
+    color: blue;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    
+}
+.react-icons > :nth-child(3) {
+    font-size: 25px;
+    color: blue;
+    margin-top: 1rem;
+    
+}

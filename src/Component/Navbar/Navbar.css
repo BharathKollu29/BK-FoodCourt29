@@ -1,0 +1,32 @@
+.navbar-container {
+    height: 10vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*position: sticky;
+    top: 0;*/
+  }
+  .navbar-left-section {
+    margin-left: 2rem;
+  }
+
+  /* navbar right secton css */
+
+  .navbar-right-section {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 5rem;
+    cursor: pointer;
+  }
+  .route-link {
+    text-decoration: none;
+    color: white;
+  }
+  .navbar-right-section > *:hover {
+    color: orangered;
+  }

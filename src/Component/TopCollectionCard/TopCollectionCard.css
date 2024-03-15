@@ -1,0 +1,54 @@
+
+.topcollection-card {
+    height: 180px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+}
+.topcollection-card > img {
+    position: absolute;
+}
+.card-image {
+    height: 150px;
+    width: 160px;
+    left: -4.7rem;
+}
+.topcollection-card-right-section {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+.card-star {
+    color: gold;
+}
+.card-rating {
+    font-weight: bold;
+    color: black;
+    margin-left: 0.5rem;
+}
+.card-rupee {
+    color: green;
+    font-weight: bold;
+    margin-top: 0.2rem;
+}
+.card-price {
+    color: green;
+    font-weight: bold;
+}
+.card-cart {
+    color: orangered;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}

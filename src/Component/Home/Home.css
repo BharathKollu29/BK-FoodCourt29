@@ -1,0 +1,74 @@
+
+.home-container {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-image: linear-gradient(black, #dbd4ca);
+    /*background-color: black;*/
+  }
+  .home-left-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 6rem;
+
+  }
+  .home-left-section  :nth-child(1) {
+    font-size: 30px;
+    color: orangered;
+    margin-bottom: 1rem;
+  }
+  .home-left-section  :nth-child(2) {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-family: cursive;
+  }
+  .home-left-section  :nth-child(3) {
+    font-family: gumela;
+  }
+  .home-left-section  :nth-child(4) {
+    background-color: orangered;
+    color: white;
+    height: 4rempx;
+    width: 6rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding: 6px 3px;
+    cursor: pointer;
+  }
+  .home-left-section :nth-child(4):hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+  
+  
+  
+  /* Home right section css */
+  
+  .home-right-section {
+    position: relative;
+  }
+  
+  .home-right-section > :nth-child(1) {
+    position: absolute;
+    height: 450px;
+    right: 0;
+    top: -14rem;
+    right: 4rem;
+  }
+  .home-right-section > :nth-child(2) {
+    position: absolute;
+    height: 500px;
+    right: 0;
+    top: -16rem;
+    right: 12rem;
+    
+
+  }
+  
